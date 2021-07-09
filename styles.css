@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding-top: 170px;
+  background-image: url(./image/les-tuman-derevia-vysota-el-khvoinyi-les.jpg);
+  background-size: cover;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+  margin: 30px auto;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 0 20px #555;
+}
+
+.value {
+  font-size: 70px;
+  font-family: 'Yomogi', cursive;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.label {
+  font-family: 'Yomogi', cursive;
+  color: rgba(250, 250, 250, 0.5);
+  text-align: center;
+  height: min-content;
+}
+
+.calendar-container {
+  width: min-content;
+}
+
+.notice {
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+  height: auto;
+  font-size: 50px;
+  font-family: 'Yomogi', cursive;
+  color: rgba(250, 250, 250, 0.425);
+  margin: 0 auto 0 auto;
+  -webkit-box-reflect: below -50px -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(transparent),
+      color-stop(40%, transparent),
+      to(rgba(250, 250, 250, 0.5))
+    );
+  /* font-family: 'Zen Tokyo Zoo', cursive; */
+}
